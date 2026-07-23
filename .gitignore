@@ -4,4 +4,4 @@ __pycache__/
 instance/
 *.db
 *.pyc
-data.py
+data*.py
