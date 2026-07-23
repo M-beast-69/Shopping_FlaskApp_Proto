@@ -9,7 +9,7 @@ def home():
 
 @app.route('/market')
 def market():
-    return render_template('market.html')
+    return render_template('market.html', item_name="Summer Time Saga", price="$20")
 
 if __name__ == "__main__":
     app.run(debug=True)
